@@ -1,8 +1,9 @@
 export {homeScreen};
+import { empty } from "./reset";
 import Image from "./food.jpg";
 
 function homeScreen() {
-const homeScreen = document.getElementById("container");
+const screen = document.getElementById("container");
 
 const mainImg = document.createElement("img");
 mainImg.setAttribute("src", Image);
@@ -25,5 +26,6 @@ list.append(item1, item2, item3);
 const subNotes = document.createElement("p");
 subNotes.innerText = "Try clicking each button to see how they switch between modules.";
 
-homeScreen.append(mainImg, title, intro, list,subNotes);
+empty();
+screen.append(mainImg, title, intro, list,subNotes);
 }

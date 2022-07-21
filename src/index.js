@@ -1,4 +1,5 @@
 import { homeScreen } from "./home";
+import { menuScreen } from "./menu";
 import "./styles.css";
 
 //header creation
@@ -36,6 +37,10 @@ footerDiv.append( copyright, github);
 footer.append(footerDiv);
 
 homeScreen();
+button1.addEventListener("click", homeScreen);
+button2.addEventListener("click", menuScreen);
+
+
 
 
 

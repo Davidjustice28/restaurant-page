@@ -10,7 +10,7 @@ body {
     border: 2px solid green;
     background-color: green;
     width:100vw;
-    height:15vh;
+    
 }
 
 div nav:nth-child(1){
@@ -92,3 +92,4 @@ nav button {
     width: 80%;
     text-align: center;
 }
+
