@@ -1,8 +1,10 @@
 #container div {
-    border:2px solid red;
-    width: 90%;
+  border: 2px solid red;
+  width: 90%;
 }
 
-#container h1, #container h2, #container h3 {
-    text-decoration: underline;
+#container h1,
+#container h2,
+#container h3 {
+  text-decoration: underline;
 }
