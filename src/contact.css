@@ -1,0 +1,44 @@
+
+
+label {
+    font-size: 15px;
+}
+.contact-page form {
+    border:2px solid black;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width:50vw;
+    height: 33vw;
+    justify-content: space-evenly;
+    gap: 10px;
+    font-weight: bold;
+
+}
+
+.name-section {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+}
+
+.name-section input {
+    width:25%;
+    border: 2px solid black;
+}
+
+.email-section {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    width: 80%;
+}
+
+.email-section input{
+    border: 2px solid black;
+    width: 75%;
+}

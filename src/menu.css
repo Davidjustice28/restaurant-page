@@ -1,10 +1,10 @@
-#container div {
+.menu-section div {
   border: 2px solid red;
   width: 90%;
 }
 
-#container h1,
-#container h2,
-#container h3 {
+.menu-section h1,
+.menu-section h2,
+.menu-section h3 {
   text-decoration: underline;
 }

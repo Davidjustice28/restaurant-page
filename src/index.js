@@ -2,7 +2,9 @@
 /* eslint-disable linebreak-style */
 import { homeScreen } from "./home";
 import  menuScreen  from "./menu";
+import loadContactPage from "./contact-page";
 import "./styles.css";
+
 // header creation
 
 const header = document.getElementById("header");
@@ -15,13 +17,10 @@ topNav.append(headerTitle);
 const bottomNav = document.createElement("nav");
 const button1 = document.createElement("button");
 button1.innerText = "Home";
-button1.setAttribute("type", "button");
 const button2 = document.createElement("button");
 button2.innerText = "Menu";
-button2.setAttribute("type", "button");
 const button3 = document.createElement("button");
 button3.innerText = "Contact";
-button3.setAttribute("type", "button");
 
 bottomNav.append(button1, button2, button3);
 header.append(topNav, bottomNav);
@@ -42,5 +41,5 @@ footer.append(footerDiv);
 
 homeScreen();
 button1.addEventListener("click", homeScreen);
-
 button2.addEventListener("click", menuScreen);
+button3.addEventListener("click", loadContactPage);

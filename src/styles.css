@@ -46,7 +46,6 @@ nav button {
 }
 
 #footer div {
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,9 +62,9 @@ nav button {
 }
 
 #container img {
-  width: 350px;
-  height: 350px;
-  border: 1px solid green;
+  width: 33vw;
+  height: 33vw;
+  border: 1px solid black;
   margin-top: 25px;
 }
 
@@ -85,5 +84,4 @@ nav button {
 #container p {
   text-align: center;
   width: 80%;
-  text-align: center;
 }

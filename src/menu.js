@@ -5,6 +5,7 @@ import "./menu.css";
 
 export default function menuScreen() {
   const display = document.getElementById("container");
+  display.classList.add("menu-section");
 
   //  sections for container structure
   const header1 = document.createElement("h1");
